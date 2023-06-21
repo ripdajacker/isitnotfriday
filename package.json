@@ -1,6 +1,6 @@
 {
   "name": "isitnotfriday",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Have you ever wondered if it's not Friday? Wonder no more!",
   "scripts": {
     "build": "rm -rf dist && tsc"
