@@ -1,0 +1,27 @@
+{
+  "name": "isitnotfriday",
+  "version": "1.0.0",
+  "description": "Have you ever wondered if it's not Friday? Wonder no more!",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ripdajacker/isitnotfriday.git"
+  },
+  "keywords": [
+    "friday",
+    "weekend",
+    "party"
+  ],
+  "author": "Jesenko Mehmedbašić",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "4.9.5"
+  },
+  "dependencies": {
+    "isitfriday": "2.0.0"
+  }
+}
